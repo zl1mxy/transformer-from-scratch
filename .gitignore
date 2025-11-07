@@ -1,0 +1,25 @@
+﻿# 首先忽略所有文件
+*
+
+# 然后明确允许我们想要的文件和目录
+!src/
+!requirements.txt
+!README.md
+!scripts/
+!results/
+
+# 允许scripts目录下的特定文件
+!scripts/run.sh
+
+# 允许results目录下的所有内容
+!results/**/
+
+# 虚拟环境（忽略）
+transformer_env/
+venv/
+.env/
+
+# Python缓存文件（忽略）
+__pycache__/
+*.pyc
+*.pyo
