@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 具体开发步骤建议
 第一天：搭建项目结构，实现MultiHeadAttention并测试
 
@@ -32,3 +33,7 @@ python src/train.py
 
 # 5.运行实验
 python src/comprehensive_experiment.py
+=======
+# transformer-from-scratch
+从零实现的Transformer编码器-解码器架构，包含完整的训练和消融实验
+>>>>>>> f43648fc7dd2a418faf4d698523614c34a988246
